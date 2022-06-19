@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 3rem;
+
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+    width: 70%;
+
+}
+h3{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    padding-bottom: 1rem;
+    width: 70%;
+}
+p{
+    width: 70%;
+}
+button {
+    border-radius: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+span{
+    position: relative;
+    left: 2rem;
+}
+.navbar-button a{
+    color: black;
+}
+
+/* styling the divs */
+/* uppermost container section */
+
+.uppermost-container {
+    background-image: url(bg-hero-desktop.svg);
+}
+
+.navbar-button {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-color: antiquewhite;
+    width: 15rem;
+    height: 3rem;
+}
+
+.get-started-button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 23rem;
+    height: 3rem;
+    border: none;
+
+}
+
+.top-container {
+    display: flex;
+    padding: 4rem;
+}
+
+.community-build {
+    position: relative;
+    top: 4rem;
+    line-height: 1.5rem;
+
+}
+.community-build p{
+    padding-bottom: 1.5rem;
+}
+
+.illustration-image {
+    height: 32rem;
+
+}
+/* the second section */
+.first-container{
+    position: relative;
+    top: 1.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10rem;
+    border-style: solid;
+    width: 70%;
+    height: 55vh;
+    border-color: antiquewhite;
+    
+}
+.grow-together{
+    position: relative;
+    top: 8rem;
+    line-height: 1.5rem;
+    
+}
+.grow-together-image{
+    position: relative;
+    height: 25rem;
+    left: 7rem;
+}
+.grow-together P{
+    width: 80%;
+}
+/* second container */
+.second-container{
+    position: relative;
+    top: 2.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10rem;
+    border-style: solid;
+    width: 70%;
+    height: 55vh;
+    border-color: antiquewhite;
+
+}
+.flowing-conversation-image{
+    position: relative;
+    height: 25rem;
+}
+.flowing-conversation{
+    position: relative;
+    top: 8rem;
+    left: 11rem;
+    line-height: 1.5rem;
+
+}
+.flowing-conversation P{
+    width: 88%;
+}
+/* the user container */
+.third-container{
+    position: relative;
+    top: 3.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10rem;
+    border-style: solid;
+    width: 70%;
+    height: 55vh;
+    border-color:antiquewhite;
+}
+.users{
+    position: relative;
+    top: 8rem;
+    line-height: 1.5rem;
+}
+.users-image{
+    position: relative;
+    height: 25rem;
+    left: 7rem;
+}
+.users-image P{
+    width: 80%;
+}
+/* build your community */
+.build-your-community{
+    position: relative;
+    background-color:white;
+    bottom: -11rem;
+    border-style: solid;
+    width: 40%;
+    height: 30vh;
+    margin: auto;
+    text-align: center;
+    border-color: white;
+    border-radius: 10px;
+    z-index: 1;
+
+    
+}
+.get-started{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4rem;
+    line-height: 5rem;
+}
+.get-started button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 23rem;
+    height: 3rem;
+    border: none;
+}
+/* the bottom container */
+
+.bottom-container{
+   background-color:  hsl(192, 100%, 9%);
+    position: relative;
+    top: 7rem;
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+}
+.bottom-logo{
+    filter:  brightness(0) invert(1);
+}
+.huddle{
+    line-height: 2.5rem;
+    padding-top: 4rem;
+    color: white;
+
+}
+.huddle p{
+    width: 38%;
+    line-height: normal;
+}
+.elit{
+    position: relative;
+    left: 3.5rem;
+    width: 50%;
+}
+.ipsum{
+    position: relative;
+    left: 2.5rem;
+}
+.about-us{
+    position: relative;
+    right: 25rem;
+    line-height: 3rem;
+    padding-top: 10rem;
+}
+.career{
+    position: relative;
+    right: 15rem;
+    line-height: 3rem;
+    padding-top: 10rem;
+}
+.icons{
+    position: relative;
+    right: 5rem;
+    line-height: 3rem;
+    padding-top: 10rem;
+    word-spacing: 2rem;
+    filter:  brightness(0) invert(1);
+}
+.copywright{
+    position: absolute;
+left: 80rem;
+top: 245rem ;
+font-size: xx-small;
+    color: white;
+}
+/* responsive to screen of 1200px and below */
+@media screen and (max-width:1200px) {
+
+    /* styling the html semantics */
+    body{
+        text-align: center;
+        margin: auto;
+    }
+    nav {
+        padding: 1.5rem;
+    }
+    h1 {
+        position: relative;
+        right: -1.5rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        padding-bottom: 2rem;
+        width: 150%;
+    
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 2rem;
+    }
+/* button{
+    width: 3rem;
+} */
+    /* styling the divs */
+    .navbar-button {
+        display: grid;
+        width: 6rem;
+        padding-top: 1rem;
+
+    }
+    .get-started-button {
+        width: 12rem;
+        height: 3rem;
+        position: relative;
+        right: -5rem;
+        /* padding-bottom: ; */
+    }
+    .get-started button{
+        width: 10rem;
+        height: 3rem;
+        border: none;
+    }
+    .uppermost-container {
+        background-image: url(bg-hero-mobile.svg);
+    }
+    .top-container {
+        display: inline-block;
+        padding: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+    .community-build {
+        text-align: center;
+        width: 45%;
+        margin: auto;
+        right: 13rem;
+        position: relative;
+        top: 4rem;
+        line-height: 1.5rem;
+    }
+        .community-build p{
+            position: relative;
+        right: -3rem;
+            padding-bottom: 1.5rem;
+            
+        }
+        
+        .illustration-image {
+            position: relative;
+            right: 7rem;
+            padding: 9rem;
+            height: 15rem;
+            margin: auto;
+
+        
+        }
+        /* the second section */
+        .first-container{
+            position: relative;
+            top: 1.5rem;
+            display: inline-block;
+            margin: auto;
+            padding: 6rem;
+            border-style: none;
+            width: 70%;
+            height: 55vh;
+            border-color: antiquewhite;
+            
+        }
+        .grow-together{
+            position: relative;
+            top: 6rem;
+            line-height: 1.5rem;
+            padding-top: 100px;
+            
+        }
+        .grow-together-image{
+            position: relative;
+            top: -33rem;
+            left: -4rem;
+            height: 13rem;
+            margin: auto;
+        }
+        .grow-together P{
+            width: 80%;
+            position: relative;
+            top: -2rem;
+            left: -4rem;
+        }
+        /* second container */
+        .second-container{
+            position: relative;
+            top: -7.5rem;
+            display: inline-block;
+            margin: auto;
+            padding: 6rem;
+            border-style: none;
+            width: 70%;
+            height: 55vh;
+            border-color: antiquewhite;
+        }
+        .flowing-conversation-image{
+            position: relative;
+            top: -2rem;
+            left: -3rem;
+            height: 13rem;
+            margin: auto;
+        }
+        .flowing-conversation{
+            position: relative;
+            top: -4rem;
+            left: 0rem;
+            line-height: 1.5rem;
+            padding-top: 100px;
+        
+        }
+        .flowing-conversation P{
+            width: 80%;
+            position: relative;
+            top: -2rem;
+            left: -4rem;
+        }
+        /* the user container */
+        .third-container{
+            position: relative;
+            top: -7.5rem;
+            display: inline-block;
+            margin: auto;
+            padding: 6rem;
+            border-style: none;
+            width: 70%;
+            height: 55vh;
+            border-color: antiquewhite;
+        }
+        .users{
+            position: relative;
+            top: 12rem;
+            left: -0rem;
+            height: 13rem;
+            margin: auto;
+        }
+        .users-image{
+            position: relative;
+            top: -20rem;
+            left: -3rem;
+            height: 13rem;
+            margin: auto;
+        }
+        .users-image P{
+            width: 80%;
+            position: relative;
+            /* top: -2rem; */
+            left: -50rem;
+        }
+        /* build your community */
+        .build-your-community{
+            position: relative;
+            background-color:white;
+            bottom: -11rem;
+            border-style: solid;
+            width: 40%;
+            height: 30vh;
+            margin: auto;
+            text-align: center;
+            border-color: white;
+            border-radius: 10px;
+            z-index: 1;
+        
+            
+        }
+        .get-started{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            padding-top: 4rem;
+            line-height: 5rem;
+        }
+        .get-started button{
+            background-color: hsl(322, 100%, 66%);
+            color: white;
+            width: 23rem;
+            height: 3rem;
+            border: none;
+        }
+        /* the bottom container */
+        
+        .bottom-container{
+           background-color:  hsl(192, 100%, 9%);
+            position: relative;
+            top: 7rem;
+            display: flex;
+            justify-content: center;
+            padding: 6rem;
+        }
+        .bottom-logo{
+            filter:  brightness(0) invert(1);
+        }
+        .huddle{
+            line-height: 2.5rem;
+            padding-top: 4rem;
+            color: white;
+        
+        }
+        .huddle p{
+            width: 38%;
+            line-height: normal;
+        }
+        .elit{
+            position: relative;
+            left: 3.5rem;
+            width: 50%;
+        }
+        .ipsum{
+            position: relative;
+            left: 2.5rem;
+        }
+        .about-us{
+            position: relative;
+            right: 25rem;
+            line-height: 3rem;
+            padding-top: 10rem;
+        }
+        .career{
+            position: relative;
+            right: 15rem;
+            line-height: 3rem;
+            padding-top: 10rem;
+        }
+        .icons{
+            position: relative;
+            right: 5rem;
+            line-height: 3rem;
+            padding-top: 10rem;
+            word-spacing: 2rem;
+            filter:  brightness(0) invert(1);
+        }
+        .copywright{
+            position: absolute;
+        left: 80rem;
+        top: 245rem ;
+        font-size: xx-small;
+            color: white;
+        }
+}
